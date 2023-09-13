@@ -38,4 +38,6 @@ const name = 'name is ${real}'
 console.log(arrowAddName("reigo"))
 
 const numberArray = [1, 2, 3, 4, 5]
-const newArray = numberArray.map()
+const newArray = numberArray.map((n) => n+5) //newArray = (6, 7, 8, 9, 10)
+
+const filteredArray = numberArray.filter()
